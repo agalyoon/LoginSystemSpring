@@ -7,7 +7,7 @@
 	<groupId>com.swtraining</groupId>
 	<artifactId>imvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>imvc</name>
 	<description>Demo project for Spring Boot</description>
