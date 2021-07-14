@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="#" th:action="@{/save}" th:object="${country}" method="post">
+
+ID: <p th:text="*{id}">Id</p><br>
+
+
+Country: <p th:text="*{countryName}">Country Name</p><br>
+
+Capital: <p th:text="*{capitalName}">Capital Name</p><br>
+</form>
+</body>
+</html>

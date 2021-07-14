@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<table>
+<tr> Id   Name</tr>
+<tr th:each="country : ${countrys}">
+
+<td th:text ="${country.id}"> ID</td>
+<td th:text ="${country.countryName}"> Name</td>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<td> <a th:href="@{/choose/{id}(id=${country.id})}"> Choose</a>
+
+</tr>
+
+</table>      
+
+</html>
